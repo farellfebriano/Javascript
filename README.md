@@ -24,6 +24,8 @@ const a = 1;
 const a = 'apple';
 const a = undefined;
 ```
+`note`<br>
+language that has multiple call stack called multi threaded
 Memory heap: <br>
 It is part of the machine where it store values that are given to the engine
 <br>
