@@ -16,4 +16,7 @@ A program has to do two things
 ![View Design](assets/JsEngine.png)
 
 Call stack:
-- It is one part of the machine where it read and executed your code.
+- It is part of the machine where it read and executed your code.
+
+Memory heap:
+- It is part of the machine where it store values that are given to the engine
