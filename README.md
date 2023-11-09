@@ -20,3 +20,9 @@ Call stack:
 
 Memory heap:
 - It is part of the machine where it store values that are given to the engine
+
+## Memory Leak
+A memory leak in JavaScript occurs when a program (typically a web application) continues to hold onto memory that is no longer needed or referenced. As a result, the application's memory usage gradually increases over time, and it may eventually lead to performance issues or even cause the application to crash.
+
+`note`<br>
+That why you might heard that global variable is bad. It is because if you forget to cleanup global variable after usage, it will fill up the memory heap and make the app slowing down or in the worse case not be able to work
