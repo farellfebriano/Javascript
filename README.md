@@ -15,11 +15,23 @@ A program has to do two things
 
 ![View Design](assets/JsEngine.png)
 
-Call stack:
-- It is part of the machine where it read and executed your code.
+Call stack:<br>
+It is part of the machine where it read and executed your code.
+Example:
+```javascript
+const a = 1;
+const a = 'apple';
+const a = undefined;
+```
+Memory heap:<br>
+It is part of the machine where it store values that are given to the engine
+Example:
+```javascript
+console.log(1)
+console.log("apple")
+console.log(undefined)
 
-Memory heap:
-- It is part of the machine where it store values that are given to the engine
+```
 
 ## Memory Leak
 A memory leak in JavaScript occurs when a program (typically a web application) continues to hold onto memory that is no longer needed or referenced. As a result, the application's memory usage gradually increases over time, and it may eventually lead to performance issues or even cause the application to crash.
