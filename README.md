@@ -41,7 +41,8 @@ language that has multiple call stack called multi threaded
 
 ## Stack Overflow
 In the programming world, "stack overflow" can also refer to a specific error that occurs when a program's call stack—the memory that tracks function calls—exceeds its allocated size. It's like trying to fit too many things into a limited space, and the program goes, "Whoa, I can't handle this!"
-<br>
+
+
 Example code that can lead stack overflow:
 ```javascript
 function foo(){
