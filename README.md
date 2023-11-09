@@ -15,7 +15,7 @@ A program has to do two things
 
 ![View Design](assets/JsEngine.png)
 
-Call stack: <br>
+Call stack (LIFO): <br>
 It is part of the machine where it read and executed your code.
 <br>
 Example:
@@ -44,3 +44,9 @@ A memory leak in JavaScript occurs when a program (typically a web application) 
 
 `note`<br>
 That why you might heard that global variable is bad. It is because if you forget to cleanup global variable after usage, it will fill up the memory heap and make the app slowing down or in the worse case not be able to work
+
+## WHT JAVASCRIPT IS SINGLE THREADED
+Well, running code on a single thread can be quite easy since you don't have to deal with complicated
+scenarios that arise in multi threaded environment.
+You just have one thing to worry about.
+And when I say issues well with multithreaded environment, you can have such things as `deadlocks`.
