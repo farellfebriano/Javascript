@@ -16,7 +16,8 @@ A program has to do two things
 ![View Design](assets/JsEngine.png)
 
 Call stack:<br>
-It is part of the machine where it read and executed your code.<br>
+It is part of the machine where it read and executed your code.
+<br>
 Example:
 ```javascript
 const a = 1;
@@ -24,7 +25,8 @@ const a = 'apple';
 const a = undefined;
 ```
 Memory heap:<br>
-It is part of the machine where it store values that are given to the engine<br>
+It is part of the machine where it store values that are given to the engine
+<br>
 Example:
 ```javascript
 console.log(1)
