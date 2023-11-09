@@ -45,8 +45,11 @@ A memory leak in JavaScript occurs when a program (typically a web application) 
 `note`<br>
 That why you might heard that global variable is bad. It is because if you forget to cleanup global variable after usage, it will fill up the memory heap and make the app slowing down or in the worse case not be able to work
 
-## WHT JAVASCRIPT IS SINGLE THREADED
+## Why JavaScript is single threaded
 Well, running code on a single thread can be quite easy since you don't have to deal with complicated
 scenarios that arise in multi threaded environment.
 You just have one thing to worry about.
 And when I say issues well with multithreaded environment, you can have such things as `deadlocks`.
+
+
+`deadlocks` occurs when two or more processes are unable to proceed because each is waiting for the other to release a resource. Essentially, it's a situation where a set of processes are blocked because each process is holding a resource and waiting for another resource acquired by some other process.
