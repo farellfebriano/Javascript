@@ -15,7 +15,7 @@ A program has to do two things
 
 ![View Design](assets/JsEngine.png)
 
-<h5>Call stack</h5>:<br>
+<h5>Call stack</h5>
 It is part of the machine where it read and executed your code.
 <br>
 Example:
@@ -24,7 +24,7 @@ const a = 1;
 const a = 'apple';
 const a = undefined;
 ```
-<h5>Memory heap:</h5><br>
+<h5>Memory heap</h5>
 It is part of the machine where it store values that are given to the engine
 <br>
 Example:
