@@ -70,3 +70,25 @@ And when I say issues well with multithreaded environment, you can have such thi
 ## Javascript Run - Time Environment
 In order for JavaScript as we know it, to run for the JavaScript engine with memory heap and call stack. To run, we need more than just the JavaScript engine. We need what we call a `JavaScript runtime environment`. And JavaScript runtime environment is again part of the browser.
 It's included in the browsers. They have extra things on top of the engine. They have something called `web APIs`, `callback queue` and an `event loop`.
+
+
+![View Design](assets/js-run-time-env.png)
+
+## Synchronous vs Asynchronous
+
+`Synchronous`way is you call the teacher, you wait on the phone until the teacher answers the phone
+and ask him the question and hopefully you get an answer.
+So you let the phone ring until he picks up, but you're not doing anything else.
+
+`Asynchronous`means you send a text to a teacher with a question, and then when the
+teacher he or she has the time, will respond to you and call you with the answer so you can do other
+stuff in between.
+
+`note`So JavaScript is asynchronous when you can leave it a message and a callback tells you, Hey, Mr. Teacher
+has a message for you when you're not too busy.
+And that's why we call it a callback function and a callback queue.
+We're calling back to let them know that, hey, there's some stuff waiting for you.
+
+
+
+
